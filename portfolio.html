@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!--==============header=========-->
+    <header class="header">
+      <div class="container header__container">
+        <a href="./index.html" class="logo header__logo"
+          >Web<span class="header__logo--black">Studio</span>
+        </a>
+        <!-- ..... навигация сайта ... -->
+        <nav>
+          <ul class="site-nav">
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link">Студия</a>
+            </li>
+            <li class="site-nav__item">
+              <a
+                href="./portfolio.html"
+                class="site-nav__link site-nav__link--current"
+                >Портфолио</a
+              >
+            </li>
+            <li class="site-nav__item">
+              <a href="" class="site-nav__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- .....почта+телефон.==header=.......-->
+        <ul class="studio-contacts">
+          <li class="studio-contacts__item">
+            <a href="mailto:info@devstudio.com" class="studio-contacts__link">
+              <svg class="mail studio-contacts__connect">
+                <use
+                  xlink:href="./images/icons.svg/symbol-defs2.svg#envelope"
+                  class="envelope"
+                ></use></svg
+              >info@devstudio.com
+            </a>
+          </li>
+          <li class="studio-contacts__item">
+            <a href="tel:+380961111111" class="studio-contacts__link">
+              <svg class="phone studio-contacts__connect">
+                <use
+                  xlink:href="./images/icons.svg/symbol-defs2.svg#smartphone"
+                ></use></svg
+              >+38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!--==================header==END====-->
+
+    <main>
+      <!-- sort of the type p2s1 ==filter==-->
+      <section class="section">
+        <div class="container">
+          <h1 class="section__title--invisible">Наши работы</h1>
+
+          <ul class="filter">
+            <li class="filter__item">
+              <button type="button" class="btn filter__btn">Все</button>
+            </li>
+            <li class="filter__item">
+              <button type="button" class="btn filter__btn">Веб-сайты</button>
+            </li>
+            <li class="filter__item">
+              <button type="button" class="btn filter__btn">Приложения</button>
+            </li>
+            <li class="filter__item">
+              <button type="button" class="btn filter__btn">Дизайн</button>
+            </li>
+            <li class="filter__item">
+              <button type="button" class="btn filter__btn">Маркетинг</button>
+            </li>
+          </ul>
+
+          <!-- example of the projects p2s1==portfolio=== -->
+
+          <ul class="portfolio">
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="thumb portfolio__thumb">
+                  <img
+                    src="./images/Технокряк.jpg"
+                    width="370"
+                    height="294"
+                    alt="laptop shows 3 cards on wich are portrayed Sara Grant (blond-haired woman), Luke Jacobs(man in the glasses) and Claire Olson(dark-haired woman)"
+                  />
+                  <div class="thumb__overlay">
+                    <p class="thumb__text">
+                      Lorem ipsum dolor sit amet consectetur,laboriosam
+                      quibusdam quidem corrupti aspernatur atque distinctio
+                      corporis! Tempora.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card portfolio__card">
+                  <h2 class="portfolio__title">Технокряк</h2>
+                  <p class="portfolio__text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="thumb portfolio__thumb">
+                  <img
+                    src="./images/Постер-New-Orlean-vs-GoldenStar.jpg"
+                    width="370"
+                    height="294"
+                    alt="There are two bascketball player. One of them is in purple form and the other one's in white"
+                  />
+                  <div class="thumb__overlay">
+                    <p class="thumb__text">
+                      Lorem ipsum dolor sit amet consectetur,laboriosam
+                      quibusdam quidem corrupti aspernatur atque distinctio
+                      corporis! Tempora.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card portfolio__card">
+                  <h2 class="portfolio__title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="portfolio__text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="thumb portfolio__thumb">
+                  <img
+                    src="./images/Ресторан-Seafood.jpg"
+                    width="370"
+                    height="294"
+                    alt="There are fish and text. The text reads as follows: The sea food restaurant has established in 2001"
+                  />
+                  <div class="thumb__overlay">
+                    <p class="thumb__text">
+                      Lorem ipsum dolor sit amet consectetur,laboriosam
+                      quibusdam quidem corrupti aspernatur atque distinctio
+                      corporis! Tempora.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card portfolio__card">
+                  <h2 class="portfolio__title">Ресторан Seafood</h2>
+                  <p class="portfolio__text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="thumb portfolio__thumb">
+                  <img
+                    src="./images/Проект-Prime.jpg"
+                    width="370"
+                    height="294"
+                    alt="Чёрные беспроводные наушники"
+                  />
+                  <div class="thumb__overlay">
+                    <p class="thumb__text">
+                      Lorem ipsum dolor sit amet consectetur,laboriosam
+                      quibusdam quidem corrupti aspernatur atque distinctio
+                      corporis! Tempora.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card portfolio__card">
+                  <h2 class="portfolio__title">Проект Prime</h2>
+                  <p class="portfolio__text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="thumb portfolio__thumb">
+                  <img
+                    src="./images/Проект-Boxes.jpg"
+                    width="370"
+                    height="294"
+                    alt="Две небольшие картонные коробочки"
+                  />
+                  <div class="thumb__overlay">
+                    <p class="thumb__text">
+                      Lorem ipsum dolor sit amet consectetur,laboriosam
+                      quibusdam quidem corrupti aspernatur atque distinctio
+                      corporis! Tempora.
+                    </p>
+                  </div>
+                </div>
+                <div class="card portfolio__card">
+                  <h2 class="portfolio__title">Проект Boxes</h2>
+                  <p class="portfolio__text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="thumb portfolio__thumb">
+                  <img
+                    src="./images/Inspiration-has-noBorders.jpg"
+                    width="370"
+                    height="294"
+                    alt="Изображения континентов в тёмных тонах"
+                  />
+                  <div class="thumb__overlay">
+                    <p class="thumb__text">
+                      Lorem ipsum dolor sit amet consectetur,laboriosam
+                      quibusdam quidem corrupti aspernatur atque distinctio
+                      corporis! Tempora.
+                    </p>
+                  </div>
+                </div>
+                <div class="card portfolio__card">
+                  <h2 class="portfolio__title">Inspiration has no Borders</h2>
+                  <p class="portfolio__text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="thumb portfolio__thumb">
+                  <img
+                    src="./images/Издание-LimitedEdition.jpg"
+                    width="370"
+                    height="294"
+                    alt="страницы раскрытого журнала"
+                  />
+                  <div class="thumb__overlay">
+                    <p class="thumb__text">
+                      Lorem ipsum dolor sit amet consectetur,laboriosam
+                      quibusdam quidem corrupti aspernatur atque distinctio
+                      corporis! Tempora.
+                    </p>
+                  </div>
+                </div>
+                <div class="card portfolio__card">
+                  <h2 class="portfolio__title">Издание Limited Edition</h2>
+                  <p class="portfolio__text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="thumb portfolio__thumb">
+                  <img
+                    src="./images/Проект-LAB.jpg"
+                    width="370"
+                    height="294"
+                    alt="Этикетка от одежды с надписью на англ Label tag"
+                  />
+                  <div class="thumb__overlay">
+                    <p class="thumb__text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nam, atque? Repellat magni aliquid illum, vitae ab
+                      laudantium voluptatibus excepturi quas sapiente nostrum
+                      libero praesentium. Dolorem cupiditate officia ratione
+                      sequi non. Lorem ipsum dolor sit amet
+                      consectetur,laboriosam quibusdam quidem corrupti
+                      aspernatur atque distinctio corporis! Tempora.
+                    </p>
+                  </div>
+                </div>
+                <div class="card portfolio__card">
+                  <h2 class="portfolio__title">Проект LAB</h2>
+                  <p class="portfolio__text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio__item">
+              <a href="#" class="portfolio__link">
+                <div class="thumb portfolio__thumb">
+                  <img
+                    src="./images/GrowingBusiness.jpg"
+                    width="370"
+                    height="294"
+                    alt="Руки мужчины, работающего на ноутбуке. Growing Business надпись на дисплее этого ноутбука"
+                  />
+                  <div class="thumb__overlay">
+                    <p class="thumb__text">
+                      Lorem ipsum dolor sit amet consectetur,laboriosam
+                      quibusdam quidem corrupti aspernatur atque distinctio
+                      corporis! Tempora.
+                    </p>
+                  </div>
+                </div>
+                <div class="card portfolio__card">
+                  <h2 class="portfolio__title">Growing Business</h2>
+                  <p class="portfolio__text">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="container footer__container">
+        <div>
+          <a href="./index.html" class="logo footer__logo"
+            >Web<span class="footer__logo--white">Studio</span></a
+          >
+          <!-- ........адрес компании... -->
+          <address class="adress footer__address">
+            <ul class="adress__list">
+              <li class="adress__item">
+                <a href="#" class="adress__link--street"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="adress__item">
+                <a href="mailto:info@devstudio.com" class="adress__link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="adress__item">
+                <a href="tel:+380961111111" class="adress__link"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <!--........ Присоединяйтесь........... -->
+        <div class="accede">
+          <h3 class="accede__title">Присоединяйтесь</h3>
+
+          <ul class="social__list accede__list">
+            <li class="social__item accede__item">
+              <a href="#" class="social__link accede__link">
+                <svg class="social__icon accede__icon">
+                  <use
+                    xlink:href="./images/icons.svg/symbol-defs2.svg#instagram-2"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item accede__item">
+              <a href="#" class="social__link accede__link">
+                <svg class="social__icon accede__icon">
+                  <use
+                    xlink:href="./images/icons.svg/symbol-defs2.svg#twitter-1"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="social__item accede__item">
+              <a href="#" class="social__link accede__link">
+                <svg class="social__icon accede__icon">
+                  <use
+                    xlink:href="./images/icons.svg/symbol-defs2.svg#facebook-1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item accede__item">
+              <a href="#" class="social__link accede__link">
+                <svg class="social__icon accede__icon">
+                  <use
+                    xlink:href="./images/icons.svg/symbol-defs2.svg#linkedin-1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--........ Присоединяйтесь.End.......... -->
+
+        <!-- ..........Подписаться................ -->
+
+        <div class="subscribe">
+          <form>
+            <label for="mail" class="subscribe__label">
+              <h3 class="subscribe__title">Подпишитесь на рассылку</h3>
+            </label>
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              class="subscribe__input"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="btn btn--main subscribe__btn">
+              Подписаться
+              <span class="subscribe__icon"></span>
+            </button>
+          </form>
+        </div>
+        <!-- ..........Подписаться.00.End.............. -->
+      </div>
+    </footer>
+  </body>
+</html>
