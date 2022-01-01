@@ -1,0 +1,72 @@
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 4px 20px;
+  text-align: center;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  border-radius: 4px;
+  border-color: transparent;
+
+  background-color: #f5f4fa;
+}
+
+.btn--main {
+  width: 200px;
+  height: 50px;
+
+  font-weight: 700;
+  background-color: var(--accent-color);
+  color: #ffffff;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  :focus {
+    background-color: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+}
+
+/* Скрывает заголовки */
+
+/*  класс Секция для секций */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+/*class="section-title"  */
+.section__title {
+  margin-bottom: 50px;
+
+  color: var(--primary-title-color);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-top: 0;
+
+  &--invisible {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+}

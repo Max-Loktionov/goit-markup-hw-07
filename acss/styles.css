@@ -3,6 +3,7 @@
   --primary-title-color: #212121;
   --accent-color: #2196f3;
   --client-color: #afb1b8;
+  --text-color-white: #ffffff;
 
   --primary-back: #ffffff;
   --secondary-back: #f5f4fa;
@@ -943,14 +944,6 @@ a {
 
 /* ++++++++Портфолио+++++++ */
 
-.section__title--invisible {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-}
-
 .filter {
   display: flex;
   margin-bottom: 50px;
@@ -975,6 +968,7 @@ a {
   margin-right: 8px;
 }
 
+/* ========portfolio========= */
 .portfolio {
   display: flex;
   flex-wrap: wrap;
