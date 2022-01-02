@@ -32,11 +32,8 @@
   margin-top: 0;
   margin-bottom: 30px;
 
-  color: #ffffff;
-  font-weight: 900;
-  font-size: 44px;
+  @include texter(44px, 900, uppercase);
+  color: var(--text-color-white);
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
 }

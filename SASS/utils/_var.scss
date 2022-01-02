@@ -13,3 +13,14 @@
   --primary-font: "Roboto", sans-serif;
   --second-font: "Raleway", sans-serif;
 }
+
+@mixin texter($font-size, $font-weight, $text-transform) {
+  color: var(--primary-title-color);
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  font-weight: $font-weight;
+  font-size: $font-size;
+  text-transform: $text-transform;
+}

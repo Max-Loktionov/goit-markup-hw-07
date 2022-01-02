@@ -34,10 +34,8 @@
   height: 70px;
 }
 .benefits__title {
-  color: var(--primary-title-color);
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  @include texter(14px, 700, uppercase);
+  text-align: start;
 }

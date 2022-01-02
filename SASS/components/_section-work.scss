@@ -22,9 +22,11 @@
 }
 
 .work__title {
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: #ffffff;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // text-transform: uppercase;
+  @include texter(14px, 700, uppercase);
+
+  color: var(--text-color-white);
   text-align: center;
 }

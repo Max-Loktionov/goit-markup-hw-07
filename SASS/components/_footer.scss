@@ -65,11 +65,11 @@
 
 .accede__title,
 .subscribe__title {
-  text-transform: uppercase;
-  color: #ffffff;
   margin-bottom: 20px;
-  font-size: 14px;
-  line-height: 1.14;
+  @include texter(14px, 700, uppercase);
+
+  text-align: start;
+  color: var(--text-color-white);
 }
 .accede__list {
   padding: 0;
@@ -98,7 +98,8 @@
   text-indent: 16px;
 
   background-color: rgba(255, 255, 255, 0);
-  font-size: 16px;
+  @include texter(16px, 500, none);
+  text-align: start;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 
